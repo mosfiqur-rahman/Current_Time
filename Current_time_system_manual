@@ -1,0 +1,39 @@
+System Manual:-
+
+
+/***************************************************************************************************
+PROGRAM : Current_time.cpp
+PURPOSE : It will convert the time[military format] in Philadelphia to the local times in different
+          cities of the world, like- Honolulu, Seattle, London, Moscow, and so on.
+          For this reason, it will take the time in Philadelphia,
+	      as an input, and will show the same time in other cities as
+          the output calculating the desired result.
+Coder : Mosfiqur Rahman (mr986@drexel.edu)
+Last Modified : 19th January, 2016.
+***************************************************************************************************/
+
+
+This program is created to convert the time[military format] in Philadelphia to the local times in different cities, such as- Honolulu, Seattle, London, Moscow, HongKong, and Aukland. 
+
+After running the program, the program will take the time[military format] in Philadelphia as an input, and will store it in a int type variable named current_time_philadelphia. Then, the program will convert the time into the local time, and will store the new times in different int type variables named time_now_honolulu, time_now_seattle, time_now_london, time_now_moscow, time_now_hongkong, time_now_aukland. 
+
+
+The program will use the following algorithms to convert the times as the time difference is given in the problem. 
+
+        time_now_honolulu = (current_time_philadelphia+1800) % 2400;
+	time_now_seattle = (current_time_philadelphia+2100) % 2400;
+	time_now_london = (current_time_philadelphia+500) % 2400;
+	time_now_moscow = (current_time_philadelphia+800) % 2400;
+	time_now_hongkong = (current_time_philadelphia+1200) % 2400;
+	time_now_aukland = (current_time_philadelphia+1700) % 2400;
+
+After that, the program will show the user, his/her desired output i.e. the Philadelphia time, converted into the local time of other cities.
+
+
+Note:- The program is made using the formatting directives in the iomanip library.
+
+
+
+
+
+

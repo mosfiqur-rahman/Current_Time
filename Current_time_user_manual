@@ -1,0 +1,30 @@
+User Manual:-
+
+
+/***************************************************************************************************
+PROGRAM : Current_time.cpp
+PURPOSE : It will convert the time[military format] in Philadelphia to the local times in different
+          cities of the world, like- Honolulu, Seattle, London, Moscow, and so on.
+          For this reason, it will take the time in Philadelphia,
+	      as an input, and will show the same time in other cities as
+          the output calculating the desired result.
+Coder : Mosfiqur Rahman (mr986@drexel.edu)
+Last Modified : 19th January, 2016.
+***************************************************************************************************/
+
+
+To run the program, please open the Current_time.cpp file in a compiler that is able to compile any program, which is written in C++. After that, build and run the program. 
+
+A new window will pop-up. It will ask you to enter the current time in Philadelphia. Please, enter the time in the military format. Again, don't give any decimal number as an input. Because if you do so, it will directly ignore the decimal part, and will take just the part before the decimal sign. Now, hit the ENTER button.
+
+Now, the program will show you all the converted times of different cities in the new window as output. The output will show the time in Honolulu, Seattle, London, Moscow, Hong Kong, and Aukland respectively.
+
+
+
+
+
+
+
+
+
+
